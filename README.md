@@ -1,76 +1,63 @@
-
-# Black Hole Merger and Neutron Star Response:
-## A Transfer-Based Model of Supernova via D-Axis Structure
-
----
-
-## 🔭 Overview
-
-This repository investigates the phenomena surrounding black hole mergers, focusing on the **mass response structure of neutron stars (D-axis)** and the **resulting supernova phenomena**, modeled and analyzed through AI simulations.
+# 🌌 ブラックホール・中性子星・超新星爆発の再定義  
+## ― D軸構造を基軸とした重力進化構造モデル ―
 
 ---
 
-## 📌 Background and Hypothesis
+## 🧭 概要
 
-While black hole mergers are typically treated as events unrelated to neutron stars, gravitational wave observations often reveal accompanying phenomena such as:
-
-- **Mass increase in nearby neutron stars**
-- **Supernova explosions**
-
-This raises a critical hypothesis:
-> "Are these events not separate occurrences, but rather interconnected phases within a single mass transfer structure (A → D)?"
-
-This repository explores the possibility that:
-
-- Black hole mergers induce mass influx into a paired neutron star (D-axis)
-- Intermediary transfer paths experience stress or failure, resulting in energy leakage
-- **Supernova is not an end-state collapse but a side-effect of structural leakage along the transfer axis**
+本リポジトリでは、ブラックホール／中性子星／超新星爆発といった極限的宇宙現象を、  
+**E-TIM理論に基づく「D軸構造（空間転送テンソル経路）」として再定義**し、  
+従来理論では断片的・因果不明であった現象群を**一貫した構造理論として統合**します。
 
 ---
 
-## 🔬 Model Structure & Outcomes
+## 🔍 D軸構造とは
 
-The system is modeled using the following assumptions:
+D軸とは、「A（ブラックホール）からD（中性子星）へと空間テンソル構造を転送する軸状経路」です。  
+この経路上には中継磁性体としての **B点／C点** が存在し、外部から観測可能な反応はこの経路の**構造応答**によるものと考えます。
 
-| Structural Element | Description |
-|--------------------|-------------|
-| Transfer Structure (A → D) | Mass source (Black Hole) → Response point (Neutron Star) |
-| Intermediary Structures | Spatially magnetic B/C-points forming the transfer pathway |
-| Leakage Model | Supernova occurs when path strength is insufficient to handle mass influx |
-
-This model provides a reinterpretation of supernova as:
-- Not a collapse of a neutron star
-- But rather, a **rupture-induced energy leak** during accelerated mass transfer
+- **A**：高密度テンソル収束点（ブラックホール）  
+- **B/C**：経路磁性体（テンソル誘導中継点）  
+- **D**：構造圧縮終端点（中性子星）
 
 ---
 
-## 🧪 AI-Based Simulation
+## 🧩 理論的再定義の位置づけ
 
-The file [`simulation/mass_transfer_supernova_simulation.ipynb`](simulation/mass_transfer_supernova_simulation.ipynb) provides:
-
-- A time-dependent model of **mass influx from a black hole into a neutron star**
-- Monitoring of the **intermediary structure’s stress threshold**
-- Calculation of **leakage energy**, interpreted as a supernova-scale explosion
-
-This validates the hypothesis that **supernova can be explained as a dynamic structural response**, not merely the endpoint of stellar collapse.
+| 現象           | 従来理論                 | D軸理論による再定義                                   |
+|----------------|--------------------------|--------------------------------------------------------|
+| 超新星爆発     | 核融合末期の暴発         | D軸転送経路の**一部破損による漏洩・圧力逆流**現象       |
+| BH合体         | 重力波を伴う融合         | **複数のA→D経路統合に伴うD構造再形成**と応答           |
+| 中性子星質量変動 | 謎の急激増加             | A→D転送経路上からの**質量逆流または注入**による反応    |
 
 ---
 
-## 📂 Directory Overview
+## 🧠 形成起源の統一モデル
 
-| Path | Description |
-|------|-------------|
-| `diagrams/` | Visual diagrams of transfer and D-axis structures |
-| `simulation/` | AI simulation code for mass transfer and supernova leakage |
-| `theories/` | Theoretical basis for BH-NS mergers and leakage mechanisms |
-| `interpretations/` | D-axis invisibility and reinterpretation of observational gaps |
-| `data/` | Numerical parameters and simulation outputs |
+ブラックホールや中性子星は、「突然形成される」のではなく、  
+**宇宙空間を流動する物質（宇宙塵・彗星・失敗核）**が複雑な衝突・連鎖・縮退を経て、  
+**第一衝突磁性体（中性子星）およびそれを起点とするA→D転送構造（D軸）**を形成します。
+
+このため、**D軸構造こそが全現象の根本因果系列**であると定義できます。
 
 ---
 
-## 🧭 Future Outlook
+## 🧪 シュミレーションと検証
 
-This model aims to offer a unified framework that can:
-- Explain observed phenomena (supernova, mass increase, black hole mergers)
-- Predict novel interactions under transfer-based gravitational frameworks
-- Contribute to redefining supernova origin theory under a **D-axis structural paradigm**
+本理論はすでに複数の構造シュミレーションと照合されており、  
+D軸経路上における圧力集中・応答・破損箇所などが観測的に再現されることが確認されています。
+
+図：`03_Simulation_Result/DAxis_Tensor_Simulation.png`
+
+---
+
+## 🔗 関連理論
+
+本リポジトリは [E-TIM重力理論（GitHubリンク）](https://github.com/Mk9207/E-TIM_Gravity_Theory) の拡張構造であり、  
+テンソル重力理論の**空間構造進化モデル（空間転送構造）**としての役割を担います。
+
+---
+
+## ⚖ ライセンス
+
+MIT License
